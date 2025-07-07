@@ -13,7 +13,7 @@ export function Header() {
 
                 <nav>
                     <ul className="flex items-center justify-center gap-10">
-                        <li>HOME</li>
+                        <li>HOMEeeeeee</li>
                         <li>POST</li>
                         <li>
                            lin
