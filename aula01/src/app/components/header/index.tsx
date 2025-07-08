@@ -9,22 +9,25 @@ export function Header() {
                         NextJS
                     </div>
 
-
-
                 <nav>
                     <ul className="flex items-center justify-center gap-10">
-                        <li>HOMEeeeeee</li>
-                        <li>POST</li>
                         <li>
-                           lin
-                            DASHBOARD
+                            < Link href='/'>
+                                HOME
+                            </Link>
                         </li>
-
-
+                        <li>
+                            < Link href='/cadastro'>
+                                CADASTRO
+                            </Link>
+                        </li>
+                        <li>
+                            < Link href='/dashboard'>
+                                DASHBOARD
+                            </Link>
+                        </li>
                     </ul>
                 </nav>
-
-               
             </div>
         </header>
     )
