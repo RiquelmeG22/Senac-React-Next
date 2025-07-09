@@ -1,3 +1,4 @@
+
 interface PostProps {
     id: number;
     title: string;
@@ -20,6 +21,7 @@ export default async function PostsPage() {
         <div>
             <h1 className="flex justify-center text-4xl m-5">Todos os Posts</h1>
 
+       
             <div className="flex flex-col gap-4 mx-2">
                 {data.posts.map(post => (
                     <div key={post.id} className="bg-gray-200 p-4 rounded-md">
